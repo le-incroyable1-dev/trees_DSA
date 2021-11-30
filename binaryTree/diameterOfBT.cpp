@@ -2,6 +2,9 @@
 We will try to find the diameter of a binary tree by a slighty
 better approach. Here we return the diameter as well as the height together 
 in order to avoid the height calculation being repeated.
+
+also refer : https://www.geeksforgeeks.org/diameter-of-a-binary-tree/
+
 */
 
 #include<iostream>
@@ -11,7 +14,7 @@ using namespace std;
 
 pair<int, int> heightDiameter(BinaryTreeNode<int>* root)
 {
-  if(root == NULL)
+  if(root == NULL) 
   {
     pair<int, int> p;
     p.first = 0;
